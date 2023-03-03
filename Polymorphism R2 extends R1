@@ -1,0 +1,15 @@
+package Polymorphism;
+
+public class R2extentsR1 {
+	public void j1(int o,String q)
+	{
+		System.out.println("overriding method");
+	}
+	
+	public static void main(String[] args) {
+		R2extentsR1 u=new R2extentsR1 ();
+		u.j1(65,"sky");
+		u.j1(67,"sky");
+	}
+
+}
